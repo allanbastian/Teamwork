@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.HomeActivity"></activity>
-        <activity android:name=".SingInActivity" />
+        <activity android:name=".ui.HomeActivity" />
+        <activity android:name=".ui.SignInActivity" />
         <activity android:name=".ui.SignUpActivity" />
         <activity android:name=".ui.MainActivity">
             <intent-filter>
@@ -21,4 +21,5 @@
         </activity>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
