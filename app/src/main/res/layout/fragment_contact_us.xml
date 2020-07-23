@@ -3,8 +3,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#385780"
     tools:context=".ContactUsFragment">
 
-    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/mobile_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Phone Number: +91 9876543210"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/contact_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mobile_number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Email: abc@xyz.com"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
 
 </RelativeLayout>
