@@ -1,4 +1,4 @@
-package com.allan.teamwork;
+package com.allan.teamwork.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,6 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.allan.teamwork.R;
 
 public class ContactUsFragment extends Fragment {
 

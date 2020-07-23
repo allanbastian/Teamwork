@@ -1,8 +1,10 @@
-package com.allan.teamwork;
+package com.allan.teamwork.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.allan.teamwork.R;
 
 public class HomeActivity extends AppCompatActivity {
 

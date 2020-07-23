@@ -1,4 +1,4 @@
-package com.allan.teamwork;
+package com.allan.teamwork.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.allan.teamwork.R;
 
 public class SignInActivity extends AppCompatActivity {
 
